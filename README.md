@@ -1,26 +1,32 @@
 # Black-Friday-Sales-Analysis
 
-This project analyzes Black Friday sales data to understand customer purchasing behavior across various product categories. The primary goal is to identify trends and patterns in customer purchases, specifically focusing on demographic factors influencing buying decisions.
+This project analyzes Black Friday sales data to explore customer purchasing behavior across various product categories. The primary goal is to identify trends and patterns in buying behavior, particularly focusing on demographic factors that influence purchasing decisions.
 
 ## Dataset
-The dataset consists of various attributes related to customer transactions during Black Friday. Key features include:
+The dataset consists of customer transaction information from Black Friday, including several key features:
 
-User_ID: Unique identifier for each customer.
+User_ID: A unique identifier for each customer.
 
-Product_ID: Unique identifier for each product.
+Product_ID: A unique identifier for each product.
 
-Gender: Gender of the customer (M/F).
+Gender: The gender of the customer (M or F).
 
-Age: Age group of the customer (e.g., 0-17, 26-35, 55+).
+Age: The age group of the customer (e.g., 0-17, 26-35, 55+).
 
-Occupation: Occupation code of the customer.
+Occupation: The occupation code associated with the customer.
 
-City_Category: Category of the city where the customer resides (e.g., A, B, C).
+City_Category: The category of the city where the customer resides (e.g., A, B, C).
 
-Stay_In_Current_City_Years: Number of years the customer has stayed in the current city.
+Stay_In_Current_City_Years: The number of years the customer has stayed in their current city.
 
-Marital_Status: Marital status of the customer (0 for single, 1 for married).
+Marital_Status: The marital status of the customer (0 for single, 1 for married).
 
 Product_Category_1, Product_Category_2, Product_Category_3: Categories to which the purchased products belong.
 
-Purchase: Amount spent by the customer.
+Purchase: The total amount spent by the customer.
+
+## Approach
+I conducted exploratory data analysis (EDA) to visualize customer demographics and purchasing trends. I compared two predictive models: linear regression and random forest regression, to see which model better understood purchasing behavior.
+
+## Results
+The analysis revealed that male customers aged 26-35 were the most frequent buyers during Black Friday. The random forest regression model outperformed the linear regression model in predicting purchases, indicating that it is more effective for this dataset. Based on these insights, I recommended targeted marketing strategies, such as discounts on popular products for the identified customer segment, to enhance sales and improve customer satisfaction.
