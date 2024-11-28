@@ -26,7 +26,7 @@ Product_Category_1, Product_Category_2, Product_Category_3: Categories to which 
 Purchase: The total amount spent by the customer.
 
 ## Approach
-I conducted exploratory data analysis (EDA) to visualize customer demographics and purchasing trends. I compared two predictive models: linear regression and random forest regression, to see which model better understood purchasing behavior.
+I conducted exploratory data analysis (EDA) to visualize customer demographics and purchasing trends. I compared some predictive models: linear regression, random forest, XGBoost, and deep learning, to see which model better understood purchasing behavior.
 
 ## Results
-The analysis revealed that male customers aged 26-35 were the most frequent buyers during Black Friday. The random forest regression model outperformed the linear regression model in predicting purchases, indicating that it is more effective for this dataset. Based on these insights, I recommended targeted marketing strategies, such as discounts on popular products for the identified customer segment, to enhance sales and improve customer satisfaction.
+The analysis revealed that male customers aged 26-35 were the most frequent buyers during Black Friday. The XGBoost model outperformed the other models in predicting purchases, indicating that it’s the most accurate and reliable for this dataset. Based on these insights, I recommended targeted marketing strategies, such as discounts on popular products for the identified customer segment, and create loyalty programs to enhance sales and improve customer satisfaction.
